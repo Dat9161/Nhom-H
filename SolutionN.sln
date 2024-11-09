@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "koifarm.WebApplication1", "koifarm.WebApplication1\koifarm.WebApplication1.csproj", "{4EA811D8-63B9-4FA5-9330-174CA37BE4EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hiep", "hiep\hiep.csproj", "{C056E190-90C4-49EA-BE46-A3C34C81500C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA811D8-63B9-4FA5-9330-174CA37BE4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA811D8-63B9-4FA5-9330-174CA37BE4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA811D8-63B9-4FA5-9330-174CA37BE4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA811D8-63B9-4FA5-9330-174CA37BE4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C056E190-90C4-49EA-BE46-A3C34C81500C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C056E190-90C4-49EA-BE46-A3C34C81500C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C056E190-90C4-49EA-BE46-A3C34C81500C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C056E190-90C4-49EA-BE46-A3C34C81500C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B99F2863-8613-4EC7-8692-2A29B65B9DBB}
+	EndGlobalSection
+EndGlobal
