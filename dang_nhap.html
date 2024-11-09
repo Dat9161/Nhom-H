@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Classy Login Form</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<style>
+		/* Background and font styling */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background: url('background-image.jpg') no-repeat center center fixed;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			color: #fff;
+		}
+
+		/* Centered container for login form */
+		.login-container {
+			background: rgba(0, 0, 0, 0.6);
+			padding: 40px;
+			width: 300px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+
+			/* Title styling */
+			.login-container h1 {
+				margin-bottom: 20px;
+				font-size: 24px;
+			}
+
+			/* Input fields styling */
+			.login-container input[type="text"],
+			.login-container input[type="password"] {
+				width: 100%;
+				padding: 10px;
+				margin: 10px 0;
+				border: none;
+				border-radius: 5px;
+				outline: none;
+			}
+
+		/* Checkbox and forgot password styling */
+		.remember-forgot {
+			display: flex;
+			justify-content: space-between;
+			font-size: 14px;
+			color: #ccc;
+		}
+
+		/* Button styling */
+		.login-container input[type="submit"] {
+			width: 100%;
+			padding: 10px;
+			background-color: #ff0055;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+
+			.login-container input[type="submit"]:hover {
+				background-color: #ff3366;
+			}
+
+		/* Social media buttons styling */
+		.social-login {
+			margin-top: 20px;
+		}
+
+			.social-login a {
+				text-decoration: none;
+				color: #fff;
+				margin: 0 10px;
+				padding: 8px 20px;
+				border-radius: 4px;
+			}
+
+			.social-login .facebook {
+				background: #3b5998;
+			}
+
+			.social-login .twitter {
+				background: #1da1f2;
+			}
+
+		/* "OR" divider styling */
+		.or-divider {
+			margin: 20px 0;
+			display: flex;
+			align-items: center;
+			text-align: center;
+		}
+
+			.or-divider hr {
+				flex: 1;
+				border: none;
+				border-top: 1px solid #555;
+			}
+
+			.or-divider div {
+				padding: 0 10px;
+				font-size: 14px;
+				color: #ccc;
+			}
+	</style>
+</head>
+<body>
+
+	<div class="login-container">
+		<h1>Classy Login Form</h1>
+		<form id="loginForm">
+			<input type="text" name="name" placeholder="User name" required>
+			<input type="password" name="password" placeholder="Password" required>
+
+			<div class="remember-forgot">
+				<label><input type="checkbox" name="remember"> Remember me</label>
+				<a href="#">Forgot Password?</a>
+			</div>
+
+			<input type="submit" value="Login">
+		</form>
+
+		<div class="or-divider">
+			<hr><div>OR</div><hr>
+		</div>
+
+		<div class="social-login">
+			<a href="#" class="facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+			<a href="#" class="twitter"><i class="fab fa-twitter"></i> Twitter</a>
+		</div>
+	</div>
+
+	<script>
+		document.getElementById("loginForm").addEventListener("submit", function(event) {
+			event.preventDefault(); // Prevent the form from submitting in the traditional way
+			window.location.href = "trangchu.html"; // Redirect to the homepage
+		});
+	</script>
+
+</body>
+</html>

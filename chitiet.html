@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chi Tiết Sản Phẩm - KoiFarm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">KoiFarm</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product-list.html">Sản phẩm</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Product Detail Start -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Cột cho hình ảnh sản phẩm -->
+            <div class="col-md-6">
+                <img id="product-image" src="" alt="Product Image" class="img-fluid mb-3">
+            </div>
+            <!-- Cột cho thông tin sản phẩm -->
+            <div class="col-md-6">
+                <h1 id="product-title">Tên Sản Phẩm</h1>
+                <p id="product-description">Mô tả sản phẩm sẽ hiển thị ở đây.</p>
+                <h4 id="product-price">Giá: </h4>
+            </div>
+        </div>
+    </div>
+    <!-- Product Detail End -->
+    <!-- JavaScript để tải chi tiết sản phẩm -->
+    <script>
+        // Lấy ID sản phẩm từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        // Dữ liệu sản phẩm mẫu
+        const products = {
+            1: {
+                title: "Hi Showa",
+                image: "img/Hi.jpg",
+                description: "Koi Showa là một giống cá Koi có đặc điểm nổi bật là màu sắc cơ thể chủ yếu là đen (Sumi), trong khi đó có những điểm nhấn màu đỏ và trắng tạo thành một mạng lưới màu sắc đan xen. Những cá thể Showa thường có màu trắng nhiều hơn đen sẽ được gọi là Showa Koi.",
+                price: "1,800,000 VND"
+            },
+            2: {
+                title: "Bekko Showa",
+                image: "img/Bekko.jpg",
+                description: "Bekko là một loại cá koi với đặc điểm là làn da trắng hoặc màu khác có hoa văn màu đen (sumi) rải rác. Có hai biến thể chính của bekko là Shiro Bekko, chỉ có màu trắng và đen, và Aka Bekko, có cả ba màu: đỏ, đen và trắng. Sự phân biệt giữa bekko với các loại khác như utsuri cũng có thể được thực hiện bằng cách quan sát cụ thể các mảng màu.",
+                price: "5,000,000 VND (giá cũ: 5,500,000 VND)"
+            },
+            3: {
+                title: "Doitsu Showa",
+                image: "img/doitsu.jpg",
+                description: "Doitsu Showa là một loại cá Koi thuộc dòng Showa, đặc trưng bởi sự thiếu hoặc gần như không có vảy. Phát triển hơn 100 năm trước, Doitsu Koi có ngoại hình chắc chắn, thường có dáng dấp mảnh mai và bề ngoài giống như chiếc tàu ngầm. Những con cá Doitsu Showa được nuôi trồng tại nhiều trại cá, trong đó có Ogata Koi Farm.",
+                price: "2,000,000 VND"
+            },
+            4: {
+                title: "Kindai Showa",
+                image: "img/Kindai.jpg",
+                description: "Kindai Showa là một giống cá koi thuộc họ gosanke, nổi bật với ba màu chính: đỏ, đen và trắng. Chúng thường có màu trắng chủ đạo (trên 40%), và các chi tiết về màu sắc có thể khác nhau do sự kết hợp của Hi (đỏ) và Sumi (đen). Giống cá này được ưa chuộng không chỉ vì vẻ đẹp mà còn vì tính dễ nuôi.",
+                price: "490,000,000 VND (giá cũ: 500,000,000 VND)"
+            },
+            5: {
+                title: "Tancho Showa",
+                image: "img/Tancho_showa.jpg",
+                description: "Tancho Showa với điểm đỏ nổi bật trên đầu, rất quý và độc đáo.",
+                price: "3,000,000 VND"
+            },
+            6: {
+                title: "Maruten Showa",
+                image: "img/Maruten.jpg",
+                description: "Maruten Showa mang vẻ đẹp hoàn hảo với màu sắc tinh tế.",
+                price: "2,000,000 VND"
+            },
+            7: {
+                title: "Ginrin Showa",
+                image: "img/Ginrin.jpg",
+                description: "Ginrin Showa nổi bật với lớp vảy lấp lánh, tạo cảm giác độc đáo.",
+                price: "2,800,000 VND"
+            },
+            8: {
+                title: "Classic Showa",
+                image: "img/class.jpg",
+                description: "Classic Showa là lựa chọn hoàn hảo cho những người yêu thích cá Koi truyền thống.",
+                price: "600,000 VND (giá cũ: 700,000 VND)"
+            },
+            9: {
+                title: "Classic Sanke",
+                image: "img/classic_sanke.jpg",
+                description: "Classic Sanke mang phong cách truyền thống với hoa văn đơn giản và đẹp mắt.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            10: {
+                title: "Doitsu Sanke",
+                image: "img/doitsu_sanke.jpg",
+                description: "Cá koi Sanke là một giống cá koi nổi bật với ba màu chính: đen, đỏ và trắng. Đặc điểm nhận diện của cá koi Sanke là da nền màu trắng với các đốm đen nhỏ (hay còn gọi là sumi) và các mảng màu đỏ nổi bật (beni) trên cơ thể. Điều này giúp chúng khác biệt với giống cá koi Showa, mà có da nền màu đen.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            11: {
+                title: "Ginrin Sanke",
+                image: "img/ginrin_sanke.jpg",
+                description: "Ginrin Sanke với lớp vảy sáng lấp lánh tạo nên sự hấp dẫn riêng biệt.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            12: {
+                title: "Kindai Sanke",
+                image: "img/kindai_sanke.jpg",
+                description: "Kindai Sanke là sự kết hợp hài hòa giữa các màu trắng, đỏ, và đen.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            13: {
+                title: "Maruten Sanke",
+                image: "img/maruten_sanke.jpg",
+                description: "Maruten Sanke nổi bật với đốm đỏ lớn trên đầu và thân màu trắng.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            14: {
+                title: "Tancho Sanke",
+                image: "img/tancho_sanke.jpg",
+                description: "Tancho Sanke được biết đến với đốm đỏ nổi bật duy nhất trên đầu.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            15: {
+                title: "Hi Utsurimono",
+                image: "img/hi_utsurimono.jpg",
+                description: "Cá koi Utsurimono, hay đơn giản là Utsuri, có nguồn gốc từ dòng Showa koi hơn 100 năm trước. Dòng cá này bao gồm bốn loại chính: Hi Utsuri (đen và đỏ), Ki Utsuri (đen và vàng), Kin Showa (đỏ, đen và trắng bạc) và Shiro Utsuri (đen và trắng). Trong số các dòng này, Shiro Utsuri là phổ biến nhất, trong khi Hi Utsuri và Ki Utsuri thì hiếm hơn.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            16: {
+                title: "Ki Utsurimono",
+                image: "img/ki_utsurimono.jpg",
+                description: "Ki Utsurimono là sự kết hợp của màu vàng và đen rất đẹp mắt.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            17: {
+                title: "Shiro Utsurimono",
+                image: "img/shiro_utsurimono.jpg",
+                description: "Shiro Utsurimono có nền trắng với các đốm đen ấn tượng.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            18: {
+                title: "Doitsu Kohaku",
+                image: "img/Doitsu_kohaku.jpg",
+                description: "Doitsu Kohaku có màu sắc đỏ và trắng tuyệt đẹp.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            19: {
+                title: "Sinrin Kohaku",
+                image: "img/Sinrin_kohaku.jpg",
+                description: "Sinrin Kohaku là giống cá Koi nổi bật với vảy lấp lánh.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            20: {
+                title: "Inazuma Kohaku",
+                image: "img/Inazuma_kohaku.jpg",
+                description: "Inazuma Kohaku có họa tiết đỏ uốn lượn như tia sét.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            21: {
+                title: "Kuchibeni Kohaku",
+                image: "img/Kuchibeni_kohaku.jpg",
+                description: "Kuchibeni Kohaku với dấu đỏ đặc trưng trên môi.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            22: {
+                title: "Maruten Kohaku",
+                image: "img/Maruten_kohaku.jpg",
+                description: "Maruten Kohaku với điểm đỏ tròn trên đầu đặc biệt.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            23: {
+                title: "Nidan Kohaku",
+                image: "img/Nidan_kohaku.jpg",
+                description: "Nidan Kohaku với họa tiết đỏ kéo dài từ đầu đến đuôi.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            24: {
+                title: "Straight Kohaku",
+                image: "img/Straight_kohaku.jpg",
+                description: "Straight Kohaku với dải đỏ thẳng trên thân.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            },
+            25: {
+                title: "Tancho Kohaku",
+                image: "kohaku/tancho.jpg",
+                description: "Tancho Kohaku nổi bật với chấm đỏ trên đầu.",
+                price: "19.00 USD (giá cũ: 29.00 USD)"
+            }
+
+        };
+
+
+        // Hiển thị chi tiết sản phẩm dựa trên ID
+        function loadProductDetail(id) {
+            const product = products[id];
+            if (product) {
+                document.getElementById("product-title").innerText = product.title;
+                document.getElementById("product-image").src = product.image;
+                document.getElementById("product-description").innerText = product.description;
+                document.getElementById("product-price").innerText = "Giá: " + product.price;
+            } else {
+                document.getElementById("product-title").innerText = "Sản phẩm không tồn tại";
+                document.getElementById("product-description").innerText = "";
+                document.getElementById("product-price").innerText = "";
+            }
+        }
+
+        // Khi trang tải xong, hiển thị chi tiết sản phẩm dựa trên ID
+        document.addEventListener("DOMContentLoaded", function () {
+            if (productId) {
+                loadProductDetail(productId);
+            }
+        });
+    </script>
+</body>
+
+</html>
