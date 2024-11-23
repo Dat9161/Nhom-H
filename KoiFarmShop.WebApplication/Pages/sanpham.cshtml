@@ -1,0 +1,36 @@
+﻿@page
+@model KoiFarmShop.WebApplication.Pages.sanphamModel
+
+@{
+    ViewData["Title"] = "Danh sách Sản phẩm";
+}
+
+<!-- Tab Content for displaying products based on category -->
+<!-- Tiêu đề "Danh sách sản phẩm" nằm dưới navbar -->
+<div class="container my-5">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+<div class="tab-content mt-4">
+    @if (Model.Products.Any())
+    {
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.ProductName">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.ProductName</h5>
+                            <p class="card-text">@product.Price.ToString("N0") VND</p>
+                            <a asp-page="/chitiet" class="btn btn-info" asp-route-id="@product.ProductId">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>Không tìm thấy sản phẩm nào.</p>
+    }
+</div>

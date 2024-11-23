@@ -1,0 +1,153 @@
+﻿@page
+@model KoiFarmShop.WebApplication.Pages.taikhoanModel
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Quản Lý Tài Khoản - KoiFarm";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .account-container {
+            background: #fff;
+            padding: 40px;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+        }
+
+            .account-container h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 28px;
+                color: #333;
+            }
+
+            .account-container label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 14px;
+                color: #555;
+            }
+
+            .account-container input[type="text"],
+            .account-container input[type="email"],
+            .account-container input[type="date"],
+            .account-container input[type="password"] {
+                width: 100%;
+                padding: 12px;
+                margin-bottom: 20px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+                font-size: 14px;
+            }
+
+            .account-container input[type="submit"] {
+                width: 100%;
+                padding: 12px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .account-container input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+
+        .readonly {
+            background-color: #e9ecef;
+            cursor: not-allowed;
+        }
+
+        .error-message,
+        .success-message {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            color: red;
+        }
+
+        .success-message {
+            color: green;
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+            .register-link a {
+                color: #007bff;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+                .register-link a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="account-container">
+            <h1>Quản Lý Tài Khoản</h1>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="success-message">@TempData["SuccessMessage"]</div>
+            }
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="error-message">@Model.ErrorMessage</div>
+            }
+
+            <form method="post">
+                <label for="IdUser">Mã tài khoản</label>
+                <input type="text" id="IdUser" name="IdUser" value="@Model.IdUser" class="readonly" readonly>
+
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" value="@Model.Email" class="readonly" readonly>
+
+                <label for="Name">Tên</label>
+                <input type="text" id="Name" name="Name" value="@Model.Name" required>
+
+                <label for="Phone">Số điện thoại</label>
+                <input type="text" id="Phone" name="Phone" value="@Model.Phone" required>
+
+                <label for="Birthday">Ngày sinh</label>
+                <input type="date" id="Birthday" name="Birthday" value="@Model.Birthday">
+
+                <label for="Address">Địa chỉ</label>
+                <input type="text" id="Address" name="Address" value="@Model.Address" required>
+
+                <label for="Password">Mật khẩu mới (Nếu có)</label>
+                <input type="password" id="Password" name="Password" placeholder="Mật khẩu mới">
+
+                <input type="submit" value="Cập nhật thông tin">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chi Tiết Sản Phẩm - KoiFarm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">KoiFarm</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product-list.html">Sản phẩm</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Product Detail Start -->
+    <div class="container py-5">
+        <h1 id="product-title">Tên Sản Phẩm</h1>
+        <img id="product-image" src="img/Inazuma_kohaku.jpg" alt="Inazuma Kohaku" class="img-fluid mb-3">
+        <p id="product-description">Inazuma Kohaku có họa tiết đỏ uốn lượn như tia sét.</p>
+        <h4 id="product-price">Giá: 19.00 USD</h4>
+
+        <!-- Nút Add to Cart điều hướng đến trang thanh toán -->
+        <div class="d-flex mt-4">
+            <a href="checkout.html" class="btn btn-primary w-100">Add to cart & Go to Checkout</a>
+        </div>
+    </div>
+    <!-- Product Detail End -->
+
+    <!-- JavaScript để tải chi tiết sản phẩm -->
+    <script>
+        // Lấy ID sản phẩm từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        // Dữ liệu sản phẩm mẫu
+        const products = {
+            1: {
+                title: "Hi Showa",
+                image: "img/Hi.jpg",
+                description: "Hi Showa là một loại cá Koi phổ biến với màu đỏ và đen rực rỡ.",
+                price: "1,800,000 VND"
+            },
+            2: {
+                title: "Inazuma Kohaku",
+                image: "img/Inazuma_kohaku.jpg",
+                description: "Inazuma Kohaku có họa tiết đỏ uốn lượn như tia sét.",
+                price: "19.00 USD"
+            }
+            // Thêm các sản phẩm khác nếu cần
+        };
+
+        // Hiển thị chi tiết sản phẩm dựa trên ID
+        function loadProductDetail(id) {
+            const product = products[id];
+            if (product) {
+                document.getElementById("product-title").innerText = product.title;
+                document.getElementById("product-image").src = product.image;
+                document.getElementById("product-description").innerText = product.description;
+                document.getElementById("product-price").innerText = "Giá: " + product.price;
+            } else {
+                document.getElementById("product-title").innerText = "Sản phẩm không tồn tại";
+                document.getElementById("product-description").innerText = "";
+                document.getElementById("product-price").innerText = "";
+            }
+        }
+
+        // Khi trang tải xong, hiển thị chi tiết sản phẩm dựa trên ID
+        document.addEventListener("DOMContentLoaded", function () {
+            if (productId) {
+                loadProductDetail(productId);
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Biểu Mẫu Đăng Ký Sang Trọng</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<style>
+		/* Nền và định dạng chữ */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background: url('img/video.gif') no-repeat center center fixed;
+			background-size: cover;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			color: #fff;
+		}
+
+		/* Hộp chứa biểu mẫu đăng ký */
+		.signup-container {
+			background: rgba(0, 0, 0, 0.6);
+			padding: 40px;
+			width: 300px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		}
+
+		/* Tiêu đề */
+		.signup-container h1 {
+			margin-bottom: 20px;
+			font-size: 24px;
+		}
+
+		/* Định dạng các trường nhập liệu */
+		.signup-container input[type="text"],
+		.signup-container input[type="password"],
+		.signup-container input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			border: none;
+			border-radius: 5px;
+			outline: none;
+		}
+
+		/* Định dạng nút */
+		.signup-container input[type="submit"] {
+			width: 100%;
+			padding: 10px;
+			background-color: #ff0055;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+
+		.signup-container input[type="submit"]:hover {
+			background-color: #ff3366;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="signup-container">
+		<h1>Đăng Ký Tài Khoản</h1>
+		<form id="signupForm">
+			<input type="text" name="username" placeholder="Tên người dùng" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Mật khẩu" required>
+			<input type="password" name="confirm_password" placeholder="Xác nhận mật khẩu" required>
+
+			<input type="submit" value="Đăng ký">
+		</form>
+	</div>
+
+	<script>
+		document.getElementById("signupForm").addEventListener("submit", function (event) {
+			event.preventDefault(); 
+			// Kiểm tra xác nhận mật khẩu
+			const password = document.querySelector('input[name="password"]').value;
+			const confirmPassword = document.querySelector('input[name="confirm_password"]').value;
+
+			if (password !== confirmPassword) {
+				alert("Mật khẩu xác nhận không khớp. Vui lòng thử lại.");
+			} else {
+				
+				window.location.href = "trangchu.html";
+			}
+		});
+    
+	</script>
+	
+</body>
+</html>
+-

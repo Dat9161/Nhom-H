@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KoiFarmShop.WebApplication
+build_property.RootNamespace = KoiFarmShop.WebApplication
+build_property.ProjectDir = C:\SSS\Nhom-H\KoiFarmShop\KoiFarmShop.WebApplication\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\SSS\Nhom-H\KoiFarmShop\KoiFarmShop.WebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/chitiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2hpdGlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/dang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/dang_nhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGFuZ19uaGFwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/giohang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ2lvaGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/gioithieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ2lvaXRoaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/lienhe-2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbGllbmhlLTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/sanpham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2FucGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/taikhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGFpa2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/trangchu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdHJhbmdjaHUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SSS/Nhom-H/KoiFarmShop/KoiFarmShop.WebApplication/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6qpd97lf5n

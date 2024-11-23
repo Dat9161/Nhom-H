@@ -1,0 +1,87 @@
+﻿@page
+@model KoiFarmShop.WebApplication.Pages.lienhe_2Model
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Liên Hệ";
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <h1 class="display-3 mb-3 animated slideInDown">Liên Hệ</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="text-body" href="/trangchu">Trang Chủ</a></li>
+                <li class="breadcrumb-item text-dark active" aria-current="page">Liên Hệ</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Contact Section Start -->
+<div class="container-xxl py-6">
+    <div class="container">
+        <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-5 mb-3">Liên Hệ Với Chúng Tôi</h1>
+            <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn. Vui lòng liên hệ để được tư vấn và hỗ trợ!</p>
+        </div>
+        <div class="row g-5 justify-content-center">
+            <!-- Contact Information -->
+            <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5 rounded">
+                    <h5 class="text-white">Gọi Ngay</h5>
+                    <p class="mb-5"><i class="fa fa-phone-alt me-3"></i>+84 123 456 789</p>
+                    <h5 class="text-white">Gửi Email</h5>
+                    <p class="mb-5"><i class="fa fa-envelope me-3"></i>info@koifarm.vn</p>
+                    <h5 class="text-white">Địa Chỉ Văn Phòng</h5>
+                    <p class="mb-5"><i class="fa fa-map-marker-alt me-3"></i>8/20 Đường 22, Thủ Đức, TP.HCM</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="p-4 border bg-white rounded shadow-sm">
+                    <form method="post">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="Name" placeholder="Họ và Tên" required>
+                                    <label for="name">Họ và Tên</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required>
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="Subject" placeholder="Chủ đề" required>
+                                    <label for="subject">Chủ đề</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Nhập nội dung" id="message" name="Message" style="height: 200px" required></textarea>
+                                    <label for="message">Nội dung</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Gửi Tin Nhắn</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Section End -->
+<!-- Google Map Start -->
+<div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
+    <iframe class="w-100" style="height: 450px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4869893835677!2d106.6669825146236!3d10.859221560706464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175274e4320cfc1%3A0x95b6a6a32a945b93!2s22%2F18%20Duong%2021%2C%20Ho%20Chi%20Minh%20City%2C%20Vietnam!5e0!3m2!1svi!2s!4v1603794290143!5m2!1svi!2s"
+            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<!-- Google Map End -->

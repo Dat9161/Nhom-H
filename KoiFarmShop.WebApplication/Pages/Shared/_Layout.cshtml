@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"] - KoiFarm</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="bán cá koi, cá koi Nhật, cá koi Việt" name="keywords">
+    <meta content="Cửa hàng bán cá koi uy tín với nhiều giống cá chất lượng cao" name="description">
+    <link href="~/img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>8/20 Đường 22, Thủ Đức, Hồ Chí Minh, Việt Nam</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i><a href="mailto:info@koifish.vn">info@koifish.vn</a></small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Theo dõi chúng tôi:</small>
+                <a class="text-body ms-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="text-body ms-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="text-body ms-3" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a asp-page="/trangchu" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0">Koi<span class="text-secondary">Fish</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a asp-page="/trangchu" class="nav-item nav-link">Trang chủ</a>
+                    <a asp-page="/gioithieu" class="nav-item nav-link">Giới thiệu</a>
+                    <a asp-page="/sanpham" class="nav-item nav-link">Sản phẩm</a>
+                    <a asp-page="/hoadon" class="nav-item nav-link">Hóa Đơn</a>
+                    <div class="nav-item dropdown">
+                        <div class="dropdown-menu m-0">
+                            <a asp-page="/blog" class="dropdown-item">Tin tức</a>
+                            <a asp-page="/feature" class="dropdown-item">Tính năng của chúng tôi</a>
+                            <a asp-page="/testimonial" class="dropdown-item">Đánh giá khách hàng</a>
+                            <a asp-page="/404" class="dropdown-item">Trang 404</a>
+                        </div>
+                    </div>
+                    <a asp-page="/lienhe-2" class="nav-item nav-link">Liên hệ</a>
+
+                    <!-- Kiểm tra trạng thái đăng nhập -->
+                    <!-- Kiểm tra trạng thái đăng nhập -->
+                    <div class="nav-item ms-4 d-flex align-items-center">
+                        <!-- Kiểm tra trạng thái đăng nhập -->
+                        @if (Context.Session.GetString("IdUser") == null)
+                        {
+                            <a asp-page="/dang_nhap" class="nav-item nav-link">Đăng nhập</a>
+                        }
+                        else
+                        {
+                            <form method="get" asp-page="/dang_xuat" class="nav-item nav-link">
+                                <button type="submit" class="btn btn-link nav-link">Đăng xuất</button>
+                            </form>
+                        }
+                    </div>
+
+
+
+
+
+                    <form class="d-flex ms-3" method="get" action="/sanpham">
+                        <input class="form-control form-control-sm me-2" type="search" name="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                        <button class="btn btn-outline-primary btn-sm" type="submit">Tìm kiếm</button>
+                    </form>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a asp-page="/taikhoan" class="btn-sm-square bg-white rounded-circle ms-3">
+                        <small class="fa fa-user text-body"></small>
+                    </a>
+                    <a asp-page="/giohang" class="btn-sm-square bg-white rounded-circle ms-3">
+                        <small class="fa fa-shopping-bag text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        @RenderBody()
+    </main>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="fw-bold text-primary mb-4">Koi<span class="text-secondary">Fish</span></h1>
+                    <p>Chuyên cung cấp các giống cá koi uy tín và chất lượng tại Việt Nam.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- Other Footer Sections -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/js/main.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

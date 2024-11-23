@@ -1,0 +1,87 @@
+﻿@page
+@model KoiFarmShop.WebApplication.Pages.chitietModel
+
+@{
+    ViewData["Title"] = "Chi tiết Sản phẩm";
+}
+
+<style>
+    .product-title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa tên và giá */
+    }
+
+    .product-price, .product-status, .product-stock {
+        font-size: 24px;
+    }
+
+    .product-category {
+        font-size: 20px;
+    }
+
+    /* Thêm khoảng cách cho phần nội dung để không bị chồng lên navbar */
+    .container {
+        margin-top: 80px; /* Điều chỉnh để tránh bị chồng lên navbar */
+    }
+
+    /* Kiểu dáng cho nút "Thêm vào giỏ hàng" */
+    .add-to-cart-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+    }
+
+        .add-to-cart-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .add-to-cart-btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+</style>
+
+<div class="container">
+    <div class="row">
+        <!-- Hình ảnh sản phẩm -->
+        <div class="col-md-6">
+            <img src="@Model.Product.ImageUrl" alt="@Model.Product.ProductName" class="img-fluid">
+        </div>
+
+        <!-- Thông tin chi tiết sản phẩm nằm kế bên hình ảnh -->
+        <div class="col-md-6">
+            <h3 class="product-title">@Model.Product.ProductName</h3>
+            <h3 class="product-price">Giá: @Model.Product.Price.ToString("N0") VND</h3>
+            <p class="product-category"><strong>Danh mục:</strong> @Model.Category.CategoryName</p>
+
+            <p class="product-stock">
+                <strong>Số lượng trong kho:</strong>
+                @if (Model.Stock != null && Model.Stock.Quantity > 0)
+                {
+                    <span>@Model.Stock.Quantity</span> <span>cá</span>
+                    <!-- Form "Thêm vào giỏ hàng" -->
+                    <form method="post" asp-page-handler="AddToCart">
+                        <input type="hidden" name="productId" value="@Model.Product.ProductId" />
+                        <label for="quantity">Số lượng:</label>
+                        <input type="number" name="quantity" id="quantity" min="1" value="1" class="form-control" />
+                        <button type="submit" class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+                    </form>
+                }
+                else
+                {
+                    <span>Hết hàng</span>
+                }
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,112 @@
+﻿@page
+@model KoiFarmShop.WebApplication.Pages.dang_nhapModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Đăng Nhập - KoiFarm";
+}
+
+<!DOCTYPE HTML>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('img/video.gif') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .signup-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+            .signup-container h1 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            .signup-container input[type="text"],
+            .signup-container input[type="password"],
+            .signup-container input[type="email"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+            }
+
+            .signup-container input[type="submit"] {
+                width: 100%;
+                padding: 10px;
+                background-color: #ff0055;
+                border: none;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 20px;
+            }
+
+                .signup-container input[type="submit"]:hover {
+                    background-color: #ff3366;
+                }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+
+        .success-message {
+            color: green;
+            margin-top: 10px;
+        }
+
+        .link {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        /* Tạo khoảng cách cho nút đăng ký */
+        .register-link {
+            margin-top: 15px;
+            display: block;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h1>Đăng Nhập</h1>
+
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="error-message">@Model.ErrorMessage</div>
+        }
+
+        <form method="post">
+            <input type="email" name="Email" placeholder="Email" value="@Model.Email" required>
+            <input type="password" name="Password" placeholder="Mật khẩu" required>
+            <input type="submit" value="Đăng nhập">
+        </form>
+
+        <div class="register-link">
+            <a asp-page="/dang" class="link">Chưa có tài khoản? Đăng ký ngay</a>
+        </div>
+    </div>
+</body>
+</html>

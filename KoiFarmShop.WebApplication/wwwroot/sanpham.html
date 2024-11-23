@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>KoiFarmShop - Cửa Hàng Cá Koi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="bán cá koi, cá koi Nhật, cá koi Việt" name="keywords">
+    <meta content="Cửa hàng bán cá koi uy tín với nhiều giống cá chất lượng cao" name="description">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-image {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">KoiFarm</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="trangchu.html">Trang chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="gioithieu.html">Giới thiệu</a></li>
+                <li class="nav-item"><a class="nav-link active" href="sanpham.html">Sản phẩm</a></li>
+                <li class="nav-item"><a class="nav-link" href="lienhe-2.html">Liên hệ</a></li>
+            </ul>
+            <button class="btn btn-outline-primary ms-auto" onclick="showCart()">Giỏ hàng (<span id="cart-count">0</span>)</button>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Danh sách sản phẩm -->
+    <div class="container py-5">
+        <h1 class="mb-4">Danh Sách Sản Phẩm</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" onclick="displayProductList('kohaku')">Kohaku</a></li>
+            <li class="nav-item"><a class="nav-link" onclick="displayProductList('sanke')">Sanke</a></li>
+            <li class="nav-item"><a class="nav-link" onclick="displayProductList('showa')">Showa</a></li>
+            <li class="nav-item"><a class="nav-link" onclick="displayProductList('utsurimono')">Utsurimono</a></li>
+        </ul>
+
+        <div class="row" id="product-list" class="tab-content"></div>
+    </div>
+
+    <!-- Modal giỏ hàng -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Giỏ Hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Tên</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Tổng cộng</th>
+                                <th>Xóa</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart-items"></tbody>
+                    </table>
+                    <h4 class="text-end">Tổng Thanh Toán: <span id="total-price">0 VND</span></h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" onclick="checkout()">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const products = {
+            kohaku: [
+                { id: 18, title: "Doitsu Kohaku", image: "kohaku/Doitsu.jpg", price: 1900000 },
+                { id: 19, title: "Sinrin Kohaku", image: "kohaku/Ginrin.jpg", price: 1900000 },
+                { id: 20, title: "Inazuma Kohaku", image: "kohaku/Inazuma Kohaku.jpg", price: 1900000 },
+                { id: 21, title: "Kuchibeni Kohaku", image: "kohaku/Kuchibeni Kohaku.jpg", price: 1900000 },
+                { id: 22, title: "Maruten Kohaku", image: "kohaku/maruten.jpg", price: 1900000 },
+                { id: 23, title: "Nidan Kohaku", image: "kohaku/nidan.jpg", price: 1900000 },
+                { id: 24, title: "Straight Kohaku", image: "kohaku/straight.jpg", price: 1900000 },
+                { id: 25, title: "Tancho Kohaku", image: "kohaku/tancho.jpg", price: 1900000 },
+            ],
+            sanke: [
+                { id: 9, title: "Classic Sanke", image: "img/class sankejpg.jpg", price: 1900000 },
+                { id: 10, title: "Doitsu Sanke", image: "img/doitsu_sanke.jpg", price: 1900000 },
+                { id: 11, title: "Ginrin Sanke", image: "img/girin_sanke.jpg", price: 1900000 },
+                { id: 12, title: "Kindai Sanke", image: "img/Kindai sanke.jpg", price: 1900000 },
+                { id: 13, title: "Maruten Sanke", image: "img/Maruten_sanke.jpg", price: 1900000 },
+                { id: 14, title: "Tancho Sanke", image: "img/Tancho_sanke.jpg", price: 1900000 },
+            ],
+            showa: [
+                { id: 1, title: "Hi Showa", image: "img/Hi.jpg", price: 1800000 },
+                { id: 2, title: "Bekko Showa", image: "img/Bekko.jpg", price: 5000000 },
+                { id: 3, title: "Doitsu Showa", image: "img/doitsu.jpg", price: 2000000 },
+                { id: 4, title: "Kindai Showa", image: "img/Kindai.jpg", price: 490000000 },
+                { id: 5, title: "Tancho Showa", image: "img/Tancho_Showa.jpg", price: 3000000 },
+                { id: 6, title: "Maruten Showa", image: "img/Maruten.jpg", price: 2000000 },
+                { id: 7, title: "Ginrin Showa", image: "img/Ginrin.jpg", price: 2800000 },
+                { id: 8, title: "Classic Showa", image: "img/class.jpg", price: 600000 },
+            ],
+            utsurimono: [
+                { id: 15, title: "Hi Utsurimono", image: "utsurimono/hi.jpg", price: 1900000 },
+                { id: 16, title: "Ki Utsurimono", image: "utsurimono/ki.jpg", price: 1900000 },
+                { id: 17, title: "Shiro Utsurimono", image: "utsurimono/shiro.jpg", price: 1900000 },
+            ]
+        };
+        let cart = [];
+
+        function displayProductList(category) {
+            const productListContainer = document.getElementById("product-list");
+            productListContainer.innerHTML = "";
+            products[category].forEach(product => {
+                const productCard = document.createElement("div");
+                productCard.className = "col-md-3 mb-4";
+                productCard.innerHTML = `
+                        <div class="card">
+                            <img src="${product.image}" class="card-img-top product-image" alt="${product.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${product.title}</h5>
+                                <p class="card-text">${product.price.toLocaleString()} VND</p>
+                                <button class="btn btn-primary" onclick="addToCart(${product.id})">Thêm vào giỏ hàng</button>
+                                <a href="chitiet.html?id=${product.id}" class="btn btn-secondary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    `;
+                productListContainer.appendChild(productCard);
+            });
+        }
+
+        function addToCart(productId) {
+            const product = Object.values(products).flat().find(p => p.id === productId);
+            const itemIndex = cart.findIndex(item => item.id === productId);
+            if (itemIndex > -1) {
+                cart[itemIndex].quantity += 1;
+            } else {
+                cart.push({ ...product, quantity: 1 });
+            }
+            updateCartCount();
+            alert("Đã thêm vào giỏ hàng!");
+        }
+
+        function updateCartCount() {
+            document.getElementById("cart-count").innerText = cart.reduce((total, item) => total + item.quantity, 0);
+        }
+
+        function showCart() {
+            const cartItemsContainer = document.getElementById("cart-items");
+            cartItemsContainer.innerHTML = "";
+            let totalPrice = 0;
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                totalPrice += itemTotal;
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                        <td><img src="${item.image}" class="img-fluid" style="width: 50px;"></td>
+                        <td>${item.title}</td>
+                        <td>${item.price.toLocaleString()} VND</td>
+                        <td>${item.quantity}</td>
+                        <td>${itemTotal.toLocaleString()} VND</td>
+                        <td><button class="btn btn-sm btn-danger" onclick="removeFromCart(${item.id})">Xóa</button></td>
+                    `;
+                cartItemsContainer.appendChild(row);
+            });
+            document.getElementById("total-price").innerText = totalPrice.toLocaleString() + " VND";
+            new bootstrap.Modal(document.getElementById('cartModal')).show();
+        }
+
+        function removeFromCart(productId) {
+            cart = cart.filter(item => item.id !== productId);
+            showCart();
+            updateCartCount();
+        }
+
+        function checkout() {
+            alert("Thanh toán đang phát triển!");
+        }
+
+        document.addEventListener("DOMContentLoaded", () => displayProductList('kohaku'));
+    </script>
+</body>
+</html>

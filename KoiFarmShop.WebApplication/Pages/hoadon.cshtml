@@ -1,0 +1,141 @@
+﻿@page
+@model KoiFarmShop.WebApplication.Pages.HoaDonModel
+
+@{
+    ViewData["Title"] = "Hóa Đơn";
+}
+
+<!-- CSS tích hợp trực tiếp trong file -->
+<style>
+    .invoice-container {
+        margin-top: 80px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+    }
+
+    .invoice-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .invoice-table th, .invoice-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .invoice-table th {
+            background-color: #f4f4f4;
+        }
+
+        .invoice-table td {
+            background-color: #fff;
+        }
+
+    .invoice-total {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .back-to-cart {
+        margin-top: 30px;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: #6c757d;
+        color: white;
+        text-decoration: none;
+    }
+
+        .back-to-cart:hover {
+            background-color: #5a6268;
+        }
+
+    .place-order-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+    }
+
+        .place-order-btn:hover {
+            background-color: #218838;
+        }
+</style>
+
+<div class="container invoice-container">
+    <h2>Hóa Đơn</h2>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (Model.Cart.Items.Any())
+    {
+        <table class="invoice-table">
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Cart.Items)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Price.ToString("N0") VND</td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.Price * item.Quantity) VND</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="invoice-total">
+            <strong>Tổng cộng: </strong>
+            @Model.Cart.Items.Sum(item => item.Price * item.Quantity) VND
+        </div>
+
+        <form method="post" asp-page-handler="PlaceOrder">
+            <div class="form-group">
+                <label for="address">Địa chỉ:</label>
+                <input type="text" id="address" name="address" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="phone">Số điện thoại:</label>
+                <input type="text" id="phone" name="phone" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+            </div>
+            <button type="submit" class="place-order-btn">Đặt hàng</button>
+        </form>
+    }
+    else
+    {
+        <p>Giỏ hàng của bạn trống.</p>
+    }
+
+    <a href="/giohang" class="back-to-cart">Quay lại giỏ hàng</a>
+</div>

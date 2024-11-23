@@ -1,0 +1,865 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiFarmShop.WebApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KoiFarmShop.WebApplication.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\chitiet.html",
+      "PackagePath": "staticwebassets\\chitiet.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\dang.html",
+      "PackagePath": "staticwebassets\\dang.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\dang_nhap.html",
+      "PackagePath": "staticwebassets\\dang_nhap.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\gioithieu.html",
+      "PackagePath": "staticwebassets\\gioithieu.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Banner (2).jpg",
+      "PackagePath": "staticwebassets\\img\\Banner (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Bekko.jpg",
+      "PackagePath": "staticwebassets\\img\\Bekko.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Ginrin.jpg",
+      "PackagePath": "staticwebassets\\img\\Ginrin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Hi.jpg",
+      "PackagePath": "staticwebassets\\img\\Hi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Kindai sanke.jpg",
+      "PackagePath": "staticwebassets\\img\\Kindai sanke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Kindai.jpg",
+      "PackagePath": "staticwebassets\\img\\Kindai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Maruten.jpg",
+      "PackagePath": "staticwebassets\\img\\Maruten.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Maruten_sanke.jpg",
+      "PackagePath": "staticwebassets\\img\\Maruten_sanke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Tancho_Showa.jpg",
+      "PackagePath": "staticwebassets\\img\\Tancho_Showa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\Tancho_sanke.jpg",
+      "PackagePath": "staticwebassets\\img\\Tancho_sanke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\anh.jpg",
+      "PackagePath": "staticwebassets\\img\\anh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\class sankejpg.jpg",
+      "PackagePath": "staticwebassets\\img\\class sankejpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\class.jpg",
+      "PackagePath": "staticwebassets\\img\\class.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\demo.jpg",
+      "PackagePath": "staticwebassets\\img\\demo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\doitsu.jpg",
+      "PackagePath": "staticwebassets\\img\\doitsu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\doitsu_sanke.jpg",
+      "PackagePath": "staticwebassets\\img\\doitsu_sanke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\girin_sanke.jpg",
+      "PackagePath": "staticwebassets\\img\\girin_sanke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\kohaku.jpg",
+      "PackagePath": "staticwebassets\\img\\kohaku.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\product-5 (2).jpg",
+      "PackagePath": "staticwebassets\\img\\product-5 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\sanke.jpg",
+      "PackagePath": "staticwebassets\\img\\sanke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\showa.jpg",
+      "PackagePath": "staticwebassets\\img\\showa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\simple koi fish banner.jpg",
+      "PackagePath": "staticwebassets\\img\\simple koi fish banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\img\\video.gif",
+      "PackagePath": "staticwebassets\\img\\video.gif"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\Doitsu.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\Doitsu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\Ginrin.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\Ginrin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\Inazuma Kohaku.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\Inazuma Kohaku.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\Kuchibeni Kohaku.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\Kuchibeni Kohaku.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\maruten.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\maruten.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\nidan.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\nidan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\straight.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\straight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\kohaku\\tancho.jpg",
+      "PackagePath": "staticwebassets\\kohaku\\tancho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\EventHandler.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\EventHandler.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\lienhe-2.html",
+      "PackagePath": "staticwebassets\\lienhe-2.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\organic-food-website-template.jpg",
+      "PackagePath": "staticwebassets\\organic-food-website-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\sanpham.html",
+      "PackagePath": "staticwebassets\\sanpham.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\thanhtoan.html",
+      "PackagePath": "staticwebassets\\thanhtoan.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\trangchu.html",
+      "PackagePath": "staticwebassets\\trangchu.html"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\utsurimono\\hi.jpg",
+      "PackagePath": "staticwebassets\\utsurimono\\hi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\utsurimono\\ki.jpg",
+      "PackagePath": "staticwebassets\\utsurimono\\ki.jpg"
+    },
+    {
+      "Id": "C:\\Users\\anhng\\OneDrive\\Desktop\\Nhom-H\\KoiFarmShop\\KoiFarmShop.WebApplication\\wwwroot\\utsurimono\\shiro.jpg",
+      "PackagePath": "staticwebassets\\utsurimono\\shiro.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KoiFarmShop.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KoiFarmShop.WebApplication.props",
+      "PackagePath": "build\\KoiFarmShop.WebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KoiFarmShop.WebApplication.props",
+      "PackagePath": "buildMultiTargeting\\KoiFarmShop.WebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KoiFarmShop.WebApplication.props",
+      "PackagePath": "buildTransitive\\KoiFarmShop.WebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
